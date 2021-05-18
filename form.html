@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Satisfactory - Form</title>
+
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section id="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <a class="btn btn-link" href="index.html"><img src="assets/img/arrow-back.svg" alt=""> Go Back</a>
+                    <h1>Book a free 30-min. pre-audition</h1>
+                    <p class="form-text">🚀 Free. No credit card required.</p>
+                    <p class="form-text">📆 30’ minutes to review your digital product and gain insights.</p>
+                    <p class="form-text">ℹ️ We can work with design files, test enviroments or features already shipped.</p>
+                    <p class="form-text">📓 We can also review other cases to see how a report looks like.</p>
+                    <div class="mt-4">
+                        <form class="row g-3 needs-validation" novalidate action="contact_me.php" role="form" method="post">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" aria-required="true" id="name" name="name" placeholder="Your name" required>
+                                <div class="invalid-feedback">
+                                    This field is mandatory
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control"  aria-required="true" id="company" name="company" placeholder="Company Name" required>
+                                <div class="invalid-feedback">
+                                    This field is mandatory
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <select class="form-select"  aria-required="true" id="select-01" name="select-01" required>
+                                    <option selected disabled value="">What are you trying to improve?</option>
+                                    <option>Increase the user engagement with a specific feature</option>
+                                    <option>Have a better user experience</option>
+                                    <option>Increase the conversion rate on a checkout</option>
+                                    <option>Have a second opinion on my product experience</option>
+                                    <option>Other / I’m not sure</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    This field is mandatory
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <select class="form-select" aria-required="true" id="select-02" name="select-02"  required>
+                                    <option selected selected disabled value="">What’s your budget for this project?</option>
+                                    <option>$ 0 - I don’t have a budget</option>
+                                    <option>$ 0 - $ 1,000 per month</option>
+                                    <option>$ 1,000 - $ 5,000 per month</option>
+                                    <option>$ 5,000 - $ 10,000 per month</option>
+                                    <option>More than $ 10,000 per month</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    This field is mandatory
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-md-6">
+                                <div class="d-grid gap-2">
+                                    <button type="submit" id="form-submit" class="btn btn-primary">🚀 Send now!</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-md-6">
+                                <div class="alert alert-success" role="alert">
+                                    🚀️Awesome! We’ll be in touch!
+                                </div>  
+                                <div class="alert alert-danger" role="alert">
+                                    🚨 Something went wrong. Please try again.
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <p style="margin-top: 100px;">Please notice the free pre-audition can only be used once.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
