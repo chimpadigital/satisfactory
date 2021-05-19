@@ -68,7 +68,7 @@ header  a {
 }
 
 header {
-    background: url('../img/bg-space.svg') no-repeat top center;
+    background: url('../img/orbita.svg') no-repeat top center;
     background-size: cover;
     height: 100vh;
 }   
@@ -150,6 +150,8 @@ header {
 .navbar{
     margin-bottom: -56px;
 }
+
+.nav-link{font-family: 'Futura Bk BT';color: white;}
 @media only screen and (max-width: 600px) {
     .navbar{
         margin-bottom: 0px;
